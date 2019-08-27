@@ -15,7 +15,7 @@
 }
 
 - (void)setBarAlpha:(CGFloat)alpha {
-    self.subviews[0].alpha = alpha;
+//    self.subviews[0].alpha = alpha;
 }
 
 @end

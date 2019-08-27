@@ -8,7 +8,7 @@
 
 #pragma mark - 环信SDK配置 -
 
-#define EASE_MOB_APP_KEY @"1172161124178919#llwechat"
+#define EASE_MOB_APP_KEY @"1128190827113859#dubaiwechat2019"
 
 #pragma mark - ID配置 -
 

@@ -1673,7 +1673,7 @@
 				TargetAttributes = {
 					DD8C485E1D3A40BC003DF258 = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = Y68RHJFCFZ;
+						DevelopmentTeam = YL54YCP9QW;
 					};
 				};
 			};
@@ -1682,6 +1682,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 				"zh-Hans",
@@ -2065,6 +2066,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = YES;
+				DEVELOPMENT_TEAM = YL54YCP9QW;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2081,7 +2083,7 @@
 					"$(PROJECT_DIR)/HyphenateSDK/lib/3rdparty",
 					"$(PROJECT_DIR)/HyphenateSDK/lib",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = gyjzh.LLWeChat;
+				PRODUCT_BUNDLE_IDENTIFIER = dubai.WeChat2019;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 			};
@@ -2093,6 +2095,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = YES;
+				DEVELOPMENT_TEAM = YL54YCP9QW;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2109,7 +2112,7 @@
 					"$(PROJECT_DIR)/HyphenateSDK/lib/3rdparty",
 					"$(PROJECT_DIR)/HyphenateSDK/lib",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = gyjzh.LLWeChat;
+				PRODUCT_BUNDLE_IDENTIFIER = dubai.WeChat2019;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 			};
