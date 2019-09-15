@@ -42,7 +42,6 @@
 		DD4054891D81065D00523E17 /* LLContactController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4054881D81065D00523E17 /* LLContactController.m */; };
 		DD40548F1D810B0100523E17 /* LLMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD40548E1D810B0100523E17 /* LLMeViewController.m */; };
 		DD4054921D8110B200523E17 /* LLTableViewMeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4054911D8110B200523E17 /* LLTableViewMeCell.m */; };
-		DD4054A21D81598C00523E17 /* LLDiscoveryController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4054A11D81598C00523E17 /* LLDiscoveryController.m */; };
 		DD4054A51D82423900523E17 /* LLTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4054A41D82423900523E17 /* LLTableViewCell.m */; };
 		DD4054A81D82430F00523E17 /* LLTableViewCellData.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4054A71D82430F00523E17 /* LLTableViewCellData.m */; };
 		DD4054B11D82EB0100523E17 /* LLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4054B01D82EB0100523E17 /* LLMainViewController.m */; };
@@ -310,8 +309,6 @@
 		DD40548E1D810B0100523E17 /* LLMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLMeViewController.m; sourceTree = "<group>"; };
 		DD4054901D8110B200523E17 /* LLTableViewMeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLTableViewMeCell.h; sourceTree = "<group>"; };
 		DD4054911D8110B200523E17 /* LLTableViewMeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLTableViewMeCell.m; sourceTree = "<group>"; };
-		DD4054A01D81598C00523E17 /* LLDiscoveryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLDiscoveryController.h; sourceTree = "<group>"; };
-		DD4054A11D81598C00523E17 /* LLDiscoveryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLDiscoveryController.m; sourceTree = "<group>"; };
 		DD4054A31D82423900523E17 /* LLTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLTableViewCell.h; sourceTree = "<group>"; };
 		DD4054A41D82423900523E17 /* LLTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLTableViewCell.m; sourceTree = "<group>"; };
 		DD4054A61D82430F00523E17 /* LLTableViewCellData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLTableViewCellData.h; sourceTree = "<group>"; };
@@ -876,15 +873,6 @@
 			path = Me;
 			sourceTree = "<group>";
 		};
-		DD40547F1D81056500523E17 /* Discovery */ = {
-			isa = PBXGroup;
-			children = (
-				DD4054A01D81598C00523E17 /* LLDiscoveryController.h */,
-				DD4054A11D81598C00523E17 /* LLDiscoveryController.m */,
-			);
-			path = Discovery;
-			sourceTree = "<group>";
-		};
 		DD4054801D8105C500523E17 /* Conversation */ = {
 			isa = PBXGroup;
 			children = (
@@ -1092,7 +1080,6 @@
 				DD4054EB1D857FDB00523E17 /* Chat */,
 				DD143F9C1D94BF8400706DEA /* Search */,
 				DD4054801D8105C500523E17 /* Conversation */,
-				DD40547F1D81056500523E17 /* Discovery */,
 				DD40547E1D81055E00523E17 /* Me */,
 				DD40547D1D81054200523E17 /* Contact */,
 				DD94FC771DD975E300616F6B /* Login */,
@@ -1877,7 +1864,6 @@
 				DD4054C91D83AED000523E17 /* LLUtils+IPhone.m in Sources */,
 				DDDB20B51DD1682500BA281F /* LLVideoBarSlider.m in Sources */,
 				DD94FC651DD9748A00616F6B /* LLContactManager.m in Sources */,
-				DD4054A21D81598C00523E17 /* LLDiscoveryController.m in Sources */,
 				DD4054B11D82EB0100523E17 /* LLMainViewController.m in Sources */,
 				5E4122E08811E0EBB5AA4DC2 /* AppDelegate.m in Sources */,
 				DD143FA61D94BFA300706DEA /* LLBrandContactSearchController.m in Sources */,

@@ -12,9 +12,8 @@
 #import "LLMessageCacheManager.h"
 #import "LLConversationModelManager.h"
 #import "LLContactController.h"
-#import "LLDiscoveryController.h"
 
-#define TAB_ITEM_NUM 4
+#define TAB_ITEM_NUM 3
 
 @interface LLMainViewController ()<UITabBarDelegate, UINavigationControllerDelegate>
 
@@ -69,11 +68,11 @@
 }
 
 - (void)setupTabbarItems {
-    NSArray *images = @[@"tabbar_mainframe", @"tabbar_contacts", @"tabbar_discover", @"tabbar_me"];
+    NSArray *images = @[@"tabbar_mainframe", @"tabbar_contacts", @"tabbar_me"];
     
-    NSArray *selectedImages =  @[@"tabbar_mainframeHL", @"tabbar_contactsHL", @"tabbar_discoverHL", @"tabbar_meHL"];
+    NSArray *selectedImages =  @[@"tabbar_mainframeHL", @"tabbar_contactsHL", @"tabbar_meHL"];
     
-    NSArray *titles = @[@"微信",@"通讯录", @"发现", @"我"];
+    NSArray *titles = @[@"微信",@"通讯录", @"我"];
     
     NSMutableArray<UITabBarItem *> *items = [NSMutableArray array];
     for (NSInteger i = 0; i < titles.count; i++) {
@@ -116,10 +115,6 @@
             break;
         }
         case 2 :{
-            viewController = [[LLDiscoveryController alloc] init];
-            break;
-        }
-        case 3: {
             viewController = [[LLUtils mainStoryboard] instantiateViewControllerWithIdentifier:SB_ME_VC_ID];
             break;
         }
